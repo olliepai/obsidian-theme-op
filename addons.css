@@ -1,0 +1,110 @@
+body, .markdown-preview-view {
+  color: #333333;
+}
+
+.theme-light {
+  --text-muted: rgb(102, 102, 102);
+}
+
+.markdown-preview-view h1,
+.HyperMD-header-1 .cm-header-1,
+.cm-s-obsidian .cm-header-1 {
+  font-weight: 600 !important;
+}
+
+.markdown-preview-view h2,
+.HyperMD-header-2 .cm-header-2,
+.cm-s-obsidian .cm-header-2 {
+  margin-top: 1.5em;
+}
+
+.markdown-preview-view h2,
+.HyperMD-header-2 .cm-header-2,
+.cm-s-obsidian .cm-header-2,
+.markdown-preview-view h3,
+.HyperMD-header-3 .cm-header-3,
+.cm-s-obsidian .cm-header-3,
+.markdown-preview-view h4,
+.HyperMD-header-4 .cm-header-4,
+.cm-s-obsidian .cm-header-4,
+.markdown-preview-view h5,
+.HyperMD-header-5 .cm-header-5,
+.cm-s-obsidian .cm-header-5,
+.markdown-preview-view h6,
+.HyperMD-header-6 .cm-header-6,
+.cm-s-obsidian .cm-header-6 {
+  color: #333333;
+  font-weight: normal !important;
+  border: none;
+}
+
+body:not(.default-font-color) em,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-1,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-2,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-3,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-4,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-5,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-6,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-1,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-2,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-3,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-4,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-5,
+body:not(.default-font-color) .cm-s-obsidian .cm-em.cm-header.cm-header-6,
+body:not(.default-font-color) .markdown-preview-section em,
+body:not(.default-font-color) .cm-s-obsidian .cm-em {
+  color: rgb(102, 102, 102);
+}
+
+body:not(.default-font-color) strong,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-1,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-2,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-3,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-4,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-5,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-6,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-1,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-2,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-3,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-4,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-5,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-6,
+body:not(.default-font-color) .cm-header.cm-header-3.cm-hmd-internal-link,
+body:not(.default-font-color) .markdown-preview-section strong,
+body:not(.default-font-color) .cm-s-obsidian .cm-strong {
+  color: #333333;
+}
+
+a.internal-link {
+  color: rgba(10, 132, 255, 1);
+}
+
+.cm-s-obsidian span.cm-hmd-internal-link {
+  color: rgba(10, 132, 255, 1) !important;
+}
+
+a.external-link {
+  color: #AF52DE;
+}
+
+.cm-s-obsidian span.cm-link {
+  color: #AF52DE;
+}
+
+body:not(.default-font-color) .markdown-preview-view blockquote, body:not(.default-font-color) .cm-s-obsidian span.cm-quote {
+  color: rgb(102, 102, 102);
+}
+
+ul > li::marker {
+  color: #333333;
+}
+
+a {
+  color: rgba(10, 132, 255, 1);
+}
+
+.checkbox-container.is-enabled {
+  background-color: rgba(10, 132, 255, 1);
+}
